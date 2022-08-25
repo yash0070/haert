@@ -3,10 +3,10 @@ Health Watcher
 
 Is an android Application that can estimate Heart rate, Blood pressure, Respiration rate and Oxygen rate from only the camera of the mobile without using any extra sensors. 
 
-First I want to point that I used filters from here : https://github.com/berndporr/iirj
-also I used the Fast Fourier transform code from here : https://github.com/danialgoodwin/android-app-contactless-vital-signs
 
-Both the used Bandpass filter and the Fast Fourier transform java files are inside the Math package.
+ I used the Fast Fourier transform code from here : https://github.com/danialgoodwin/android-app-contactless-vital-signs
+
+ This used Bandpass filter and the Fast Fourier transform java files are inside the Math package.
 
 This application uses the PPG signal which will be obtained from the mobile camera, only by applying image processing method on each frame to get the RGB intensities, each of them contains the PPG signal that will be processed to estimate the four vital signs. 
 
@@ -44,11 +44,6 @@ Ac and Dc signals must be obtained from the PPG signal. Dc signal is the mean va
 
 
 
-ِApplication Apk for testing
--------------------
-
-Direct Link to download the Application to test it:
-https://drive.google.com/file/d/0Bxq6lYtmxVbtN0J6QklOdmRuZVU/view?usp=sharing&resourcekey=0-IaT70S-qZJNk_Aj787PwZA
 
 
 
@@ -73,24 +68,6 @@ https://pdfs.semanticscholar.org/7883/0cf36262f92049a7b4348813b3a7734f5287.pdf
 
 https://software.intel.com/en-us/android/articles/trusted-tools-in-the-new-android-world-optimization-techniques-from-intel-sse-intrinsics-to
 
-Extra Papers: 
-
-[1] 
-M. J. Gregoski, M. Mueller, A. Vertegel, A. Shaporev, B. Jackson, R. M. Frenzel, S. M. Sprehn and F.
-Treiber, "Development and Validation of a Smartphone Heart Rate," International Journal of Telemedicine
-and Applications, vol. 2012, no. 1, pp. 1-7, 2011.  
-[2] 
-V. Chandrasekaran, R. Dantu, S. Jonnada, S. Thiyagaraja and K. P. Subbu, "Cuffless Differential Blood
-Pressure Estimation," IEEE TRANSACTIONS ON BIOMEDICAL ENGINEERING, vol. 60, no. 4,
-pp. 1080-1089, 2013.  
-[3] 
-Y. Nam, B. A. Reyes and K. H. Chon, "Estimation of Respiratory Rates Using the," Biomedical and Health
-Informatics, vol. 20, no. 6, pp. 1493 - 1501 , 2015.  
-[4] 
-D. G. L. S. D.L.Carnì, "Setting–up of PPG Scaling Factors for SpO2% Evaluation by Smartphone," in
-Conference, Benevento, Italy, 2016.  
 
 
-> **Note:** This Project was Made as a Graduation Project at Princess Sumaya university for Technology (Jordan), under Eng. Mohammad Taha supervision.
-This Application is shared to be enhanced and tested more and more, so contribution is welcomed to see a more reliable and scientific Health Vital signs application in the near future..
 
